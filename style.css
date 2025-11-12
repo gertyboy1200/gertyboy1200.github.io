@@ -1,0 +1,92 @@
+/* --- Basic Page Styles --- */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  background-color: #f9fafb;
+  color: #333;
+}
+
+header {
+  background-color: #0f172a;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+header nav a {
+  color: #94a3b8;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  color: #fff;
+}
+
+/* --- Sections --- */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+h2 {
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 0.5rem;
+  color: #1e293b;
+}
+
+/* --- About --- */
+.headshot {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 1rem auto;
+}
+
+/* --- Projects --- */
+.project {
+  background: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 a {
+  color: #1e3a8a;
+  text-decoration: none;
+}
+
+.project h3 a:hover {
+  text-decoration: underline;
+}
+
+/* --- Buttons --- */
+.btn {
+  background-color: #2563eb;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #1d4ed8;
+}
+
+/* --- Footer --- */
+footer {
+  text-align: center;
+  background: #1e293b;
+  color: #cbd5e1;
+  padding: 1rem;
+  margin-top: 2rem;
+}
